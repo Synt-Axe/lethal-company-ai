@@ -6,7 +6,7 @@ matplotlib
 scikit-image
 scipy
 gTTS
-playsound
+playsound==1.2.2
 PyAutoGUI
 pyperclip
 PyDirectInput
