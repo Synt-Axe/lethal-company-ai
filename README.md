@@ -14,34 +14,39 @@ Or download the code directly as a [zip file](https://github.com/Synt-Axe/lethal
 
 Note: The code was tested on Python version 3.9.5
 
-1. Create a virtual environment.
+1. Enter the code directory.
+```
+cd lethal-company-ai
+```
+
+2. Create a virtual environment.
 ```
 python -m venv lcenv
 ```
 
-2. Activate the environment.
+3. Activate the environment.
 ```
 source lcenv/bin/activate # Linux
 .\lcenv\Scripts\activate # Windows 
 ```
 
-3. Install pip and ipykernel.
+4. Install pip and ipykernel.
 ```
 python -m pip install --upgrade pip
 pip install ipykernel
 ```
 
-4. Add the environment to ipykernel.
+5. Add the environment to ipykernel.
 ```
 python -m ipykernel install --user --name=lcenv
 ```
 
-5. Install the rest of the dependencies.
+6. Install the rest of the dependencies.
 ```
 pip install -r requirements.txt
 ```
 
-6. Run jupyter notebook.
+7. Run jupyter notebook.
 ```
 python -m notebook
 ```
