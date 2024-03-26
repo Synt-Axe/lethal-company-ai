@@ -1,0 +1,13 @@
+jupyter
+opencv-python
+keyboard
+pillow
+matplotlib
+scikit-image
+scipy
+gTTS
+playsound
+PyAutoGUI
+pyperclip
+PyDirectInput
+vgamepad

@@ -5,11 +5,56 @@ This script is able to do some of the ship command role responsibilities in Leth
 This script was made as a part of the YouTube video ["AI Learns To Play Lethal Company"](https://youtu.be/poZt_KjCwV4).
 
 ## How to use?
-1- Clone the repository.
+### Step 1: Clone the repository.
+```bash
+git clone https://github.com/Synt-Axe/lethal-company-ai.git
+```
+Or download the code directly as a [zip file](https://github.com/Synt-Axe/lethal-company-ai/archive/refs/heads/main.zip).
+### Step 2: Setup the Python Environment.
 
-2- Follow the instruction in [A0_Initialization.ipynb](https://github.com/Synt-Axe/lethal-company-ai/blob/main/A0_Initialization.ipynb). This file will help you set up the parameters for the AI.
+Note: The code was tested on Python version 3.9.5
 
-3- You can now run any of the 3 AIs. Note that the easiest one to start with is [AI2_HotAndCold.ipynb](https://github.com/Synt-Axe/lethal-company-ai/blob/main/AI2_HotAndCold.ipynb).
+1. Create a virtual environment.
+```
+python -m venv lcenv
+```
+
+2. Activate the environment.
+```
+source lcenv/bin/activate # Linux
+.\lcenv\Scripts\activate # Windows 
+```
+
+3. Install pip and ipykernel.
+```
+python -m pip install --upgrade pip
+pip install ipykernel
+```
+
+4. Add the environment to ipykernel.
+```
+python -m ipykernel install --user --name=lcenv
+```
+
+5. Install the rest of the dependencies.
+```
+pip install -r requirements.txt
+```
+
+6. Run jupyter notebook.
+```
+python -m notebook
+```
+
+### Step 3(Optional): Install VB-Audio. (For Vocal Communications)
+Install [VB-Audio](https://vb-audio.com/Cable/index.htm). And set it to be your input and output device.
+
+### Step 4: Setup the Script Parameters.
+Follow the instruction in [A0_Initialization.ipynb](https://github.com/Synt-Axe/lethal-company-ai/blob/main/A0_Initialization.ipynb).
+
+### Step 5: Run the AI!
+You can now run any of the 3 AIs. Note that the easiest one to start with is [AI2_HotAndCold.ipynb](https://github.com/Synt-Axe/lethal-company-ai/blob/main/AI2_HotAndCold.ipynb).
+
 
 ## How it works?
 
