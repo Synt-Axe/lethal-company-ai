@@ -5,6 +5,7 @@ This script is able to do some of the ship command role responsibilities in Leth
 This script was made as a part of the YouTube video ["AI Learns To Play Lethal Company"](https://youtu.be/poZt_KjCwV4).
 
 ## How to use?
+Video Tutorial: https://youtu.be/hxgGS1V1P40
 ### Step 1: Clone the repository.
 ```bash
 git clone https://github.com/Synt-Axe/lethal-company-ai.git
