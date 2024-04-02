@@ -113,6 +113,10 @@ Something that was also very challenging is how to communicate the information t
 - Memorise the path of the player from the entrance/fire exit so it can lead the player back in case they get lost. This could potentially be something the AI excels in more than a human player could.
 - Identify different enemies based on the red dot size. This is something I originally wanted to include in the AI, but did not get the chance to do so. One thing that makes this challenging is that I observed the enemies change their dot size when they get close to the map edge, which might make this approach inconsistent.
 
+## Community Contributions
+### [Easy Installer](https://github.com/zselybence/Lethal-Company-AI-Installer) by [zselybence](https://github.com/zselybence)
+A script that automatically sets up the Python environment and installs the dependencies.
+
 ## License
 
 [MIT](https://github.com/Synt-Axe/lethal-company-ai/blob/main/LICENSE)
